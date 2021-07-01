@@ -1,0 +1,44 @@
+.Home-recommendations {
+  min-height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'montseratt', sans-serif;
+}
+
+.Home-recommendations-banner {
+  width: 80vw;
+  min-height: 15vh;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 15px;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+  color: white;
+  text-shadow: black 0 0 15px;
+}
+
+a {text-decoration: none !important;}
+
+.Home-recommendations-frame {
+  min-height: 15vh;
+  border-radius: 0 0 50px 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.Home-recommendations-top {display: flex; flex-direction: row}
+.Home-recommendations-location {font-size: 4vh;}
+.Home-recommendations-icon {height: 5vh;}
+.Home-recommendations-middle {font-size: 6vh}
+.Home-recommendations-bottom {font-size: 2vh}
+
+.fa-caret-left, .fa-caret-right {min-width: 10vw; background-color: inherit; border: none; color: white;}

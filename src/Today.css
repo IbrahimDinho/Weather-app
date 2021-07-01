@@ -1,0 +1,49 @@
+
+
+
+.fa-gear, .fa-arrow-left, .fa-arrow-right {background-color: inherit; border: none; color: white;}
+.fa-arrow-left {float: left;}
+.fa-arrow-right {float: right;}
+
+
+.Today-carousel {height: 10vh; flex-direction: row !important;}
+.Today-carousel-button {width: 20vw;}
+.Today-carousel-content {
+  width: 50vw;
+  font-size: 5vh;
+  font-weight: 300;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+
+.Today-carousel, .Today-icon-container, .Today-icon, .Today-temp, .Today-conditions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Today-icon-container {height: 20vh;}
+.Today-icon {min-width: 10%;}
+
+.Today-temp {
+  height: 15vh;
+  color: white;
+  font-size: 10vh;
+  font-weight: 900;
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+}
+
+.Today-temp-overlay {
+  width: 256px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.Today-conditions {
+  height: 10vh;
+  color: white;
+  font-size: 5vh;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}

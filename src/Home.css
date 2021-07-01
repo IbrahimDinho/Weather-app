@@ -1,0 +1,61 @@
+.Home {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+  color: white;
+  font-size: calc(10px + 2vmin);
+}
+
+.Home-header {
+  background-color: rgba(0,0,0,0.5);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+.Home-header-button {width: 5vw;}
+.Home-header-invisible {width: 5vw; visibility: hidden;}
+.Home-header-content {width: 80vw;}
+
+.Home-today {
+  min-height: 55vh;
+  font-family: 'montseratt', sans-serif;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  color: white;
+}
+
+.Home-forecast {
+  background-color: rgba(0, 0, 0, 0.05);
+
+
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 15vh;
+}
+
+
+.Home-footer {
+  background-color: rgba(0,0,0,0.5);
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.Home-footer h4{
+	font-size: calc(10px + 1vmin);
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+}
+.Home-footer p{
+  font-size: calc(1px + 1vmin);
+  margin-top: 0vh;
+  padding-top: 0vh;
+}
